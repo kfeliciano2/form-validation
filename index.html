@@ -9,13 +9,38 @@
 </head>
 <body>
     <div class="container">
-        <form id="form" class="form"></form>
+        <form id="form" class="form">
         <h2>Register with us</h2>
+
+        <!--username-->
         <div class="form-control">
             <label for="username">Username</label>
+            <input type="text" id="username" placeholder="enter username">
+            <small>Erro Message</small>
+        </div>
+        <!--email-->
+
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="enter email">
+            <small>Erro Message</small>
+        </div>
+        <!--password-->
+        <div class="form-control">
+            <label for="password">password</label>
+            <input type="text" id="password" placeholder="enter password">
+            <small>Erro Message</small>
         </div>
 
+        <div class="form-control">
+            <label for="password2">Confirm Password</label>
+            <input type="password" id="password" placeholder="enter password again">
+            <small>Erro Message</small>
+        </div>
+        <button>Submit</button>
+        
     </div>
+</form>
     
     <script src="script.js"></script>
 </body>
